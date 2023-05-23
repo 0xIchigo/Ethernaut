@@ -8,4 +8,5 @@ The goal of this repository is to provide clear, easy to follow solutions to eac
 
 ## Levels
 1. [Fallback](https://github.com/0xIchigo/ethernaut/blob/master/Fallback/Solution.md)
-2. [Fallout]()
+2. [Fallout](https://github.com/0xIchigo/ethernaut/blob/master/Fallout/Solution.md)
+3. [Coin Flip](https://github.com/0xIchigo/ethernaut/blob/master/CoinFlip/Solution.md) 

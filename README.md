@@ -12,3 +12,4 @@ The goal of this repository is to provide clear, easy to follow solutions to eac
 3. [Coin Flip](https://github.com/0xIchigo/ethernaut/blob/master/CoinFlip/Solution.md) 
 4. [Telephone](https://github.com/0xIchigo/ethernaut/blob/master/Telephone/Solution.md)
 5. [Token](https://github.com/0xIchigo/ethernaut/blob/master/Token/Solution.md)
+6. [Delegation](https://github.com/0xIchigo/ethernaut/blob/master/Delegation/Solution.md)

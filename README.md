@@ -18,3 +18,4 @@ The goal of this repository is to provide clear, easy to follow solutions to eac
 9. [King](https://github.com/0xIchigo/Ethernaut/blob/master/King/Solution.md)
 10. [Re-entrancy](https://github.com/0xIchigo/Ethernaut/blob/master/Re-entrancy/Solution.md)
 11. [Elevator](https://github.com/0xIchigo/Ethernaut/blob/master/Elevator/Solution.md)
+12. [Privacy](https://github.com/0xIchigo/Ethernaut/blob/master/Elevator/Solution.md)

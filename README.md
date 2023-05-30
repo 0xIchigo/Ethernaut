@@ -15,3 +15,6 @@ The goal of this repository is to provide clear, easy to follow solutions to eac
 6. [Delegation](https://github.com/0xIchigo/ethernaut/blob/master/Delegation/Solution.md)
 7. [Force](https://github.com/0xIchigo/ethernaut/blob/master/Force/Solution.md)
 8. [Vault](https://github.com/0xIchigo/ethernaut/blob/master/Vault/Solution.md)
+9. [King](https://github.com/0xIchigo/Ethernaut/blob/master/King/Solution.md)
+10. [Re-entrancy](https://github.com/0xIchigo/Ethernaut/blob/master/Re-entrancy/Solution.md)
+11. [Elevator](https://github.com/0xIchigo/Ethernaut/blob/master/Elevator/Solution.md)

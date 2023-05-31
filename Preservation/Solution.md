@@ -1,0 +1,11 @@
+# Preservation
+
+The goal of this level is to claim ownership over the instance you are given. The contract `Preservation` uses a library to store two different times for two differnt timezones. The `owner` is only set within the `constructor()` to `msg.sender`. So, to beat this level, there needs to be another way to change the owner.
+
+Within both `setFirstTime()` and `setSecondTime()`, `delegatecall` is used to set the instances' times. It is important to note that `delegatecall` is context-preserving, meaning that the functionality of the call will execute in the delegated contract using the called contract's storage. Notice that the storage variables of `Preservation` and `LibraryContract` do not match up - `storedTime` isn't the first storage variable for `Preservation` but is for `LibraryContract`. If we were to call the function `setFirstTime`, instead of updating `storedTime`, because of incorrect storage layout, we would be changing the address of `timeZone1Library` as it is the first storage variable. If we were to pass our address as a `uint` for `setFirstTime()`, for example, we could change `timeZone1Library` to our address.
+
+For our attack to be successful, we must ensure that our hack contract has the same storage layout as `Preservation`. In `attack()`, we first call `setFirstTime()` using the address of our malicious contract as `_timestamp`. This makes the `delegatecall` to the `LibraryContract` call the `setTime()` function with the address of our malicious contract as the `_time` parameter. Now, our contract address will be the address stored in `timeZone1Library` at slot 0. This gives us control over the libraries. From here, we call `setFirstTime()` again passing in `msg.sender` as the parameter. Since we have control over the library, we have our own `setTime()` function in `AttackPreservation` that updates the `owner` to our address. This works since our malicious contract has the same storage layout as `Preservation`.
+
+The reason we cast `address` to a `uint160` before `uint256` is that explicit type conversion is not allowed from `address` to `uint256`.
+
+To beat this level, deploy `AttackPreservation` and call the `attack()` function passing in the instance address as the `_target`.

@@ -1,7 +1,5 @@
 # Gatekeeper One
 
-# Gatekeeper One
-
 The goal of this contract is to make it past the gatekeeper and register as an entrant. To register, we must call the `enter()` function, which contains three modifiers.
 
 The `gateOne` modifier checks that the `msg.sender != tx.origin`. This means that we must use a contract to interact with `GatekeeperOne` as the `msg.sender` will be that of our attack contract (`AttackGatekeeperOne.sol`) and not our wallet address.

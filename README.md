@@ -23,3 +23,4 @@ The goal of this repository is to provide clear, easy to follow solutions to eac
 14. [Gatekeeper Two](https://github.com/0xIchigo/Ethernaut/blob/master/GatekeeperTwo/Solution.md)
 15. [Naught Coin](https://github.com/0xIchigo/Ethernaut/blob/master/NaughtCoin/Solution.md)
 16. [Preservation](https://github.com/0xIchigo/Ethernaut/blob/master/Preservation/Solution.md)
+17. [Recovery](https://github.com/0xIchigo/Ethernaut/blob/master/Recovery/Solution.md)

@@ -27,3 +27,4 @@ The goal of this repository is to provide clear, easy to follow solutions to eac
 18. [MagicNumber](https://github.com/0xIchigo/Ethernaut/blob/master/Recovery/Solution.md)
 19. [Alien Codex](https://github.com/0xIchigo/Ethernaut/blob/master/AlienCodex/Solution.md)
 20. [Denial](https://github.com/0xIchigo/Ethernaut/blob/master/Denial/Solution.md)
+21. [Shop](https://github.com/0xIchigo/Ethernaut/blob/master/Shop/Solution.md)

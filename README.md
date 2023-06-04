@@ -25,3 +25,4 @@ The goal of this repository is to provide clear, easy to follow solutions to eac
 16. [Preservation](https://github.com/0xIchigo/Ethernaut/blob/master/Preservation/Solution.md)
 17. [Recovery](https://github.com/0xIchigo/Ethernaut/blob/master/Recovery/Solution.md)
 18. [MagicNumber](https://github.com/0xIchigo/Ethernaut/blob/master/Recovery/Solution.md)
+19. [Alien Codex](https://github.com/0xIchigo/Ethernaut/blob/master/AlienCodex/Solution.md)

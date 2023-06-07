@@ -29,3 +29,5 @@ The goal of this repository is to provide clear, easy to follow solutions to eac
 20. [Denial](https://github.com/0xIchigo/Ethernaut/blob/master/Denial/Solution.md)
 21. [Shop](https://github.com/0xIchigo/Ethernaut/blob/master/Shop/Solution.md)
 22. [Dex](https://github.com/0xIchigo/Ethernaut/blob/master/Dex/Solution.md)
+23. [Dex2](https://github.com/0xIchigo/Ethernaut/blob/master/Dex2/Solution.md)
+24. [Puzzle Wallet](https://github.com/0xIchigo/Ethernaut/blob/master/PuzzleWallet/Solution.md)

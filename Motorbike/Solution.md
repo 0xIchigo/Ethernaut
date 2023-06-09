@@ -20,6 +20,6 @@ To get the address of the implementation, we can use the console on the level's 
 ```
 await web3.eth.getStorageAt(contract.address, "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc");
 In my case: 0x000000000000000000000000fc2fe33ec53292acb417335494fe2fe0685ca63b
-And we remove the leading zeros for the address: 0xfc2fe33ec53292acb417335494fe2fe0685ca63b
+And we remove the leading zeros to get the address: 0xfc2fe33ec53292acb417335494fe2fe0685ca63b
 ```
 To hack the contract, we can deploy our own malicious contract `AttackMotorbike`, which is found in `AttackMotorbike.sol`. Here, we can have a `hack()` function that takes in a target address of type `IEngine` - an `Engine` interface that we've defined with an `initialize()` and `upgradeToAndCall(address, bytes memory)` funciton. We can use this to hack `Motorbike` to become the `upgrader` and pass in a `selfdestruct` call via `destroy()`.

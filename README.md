@@ -31,3 +31,4 @@ The goal of this repository is to provide clear, easy to follow solutions to eac
 22. [Dex](https://github.com/0xIchigo/Ethernaut/blob/master/Dex/Solution.md)
 23. [Dex2](https://github.com/0xIchigo/Ethernaut/blob/master/Dex2/Solution.md)
 24. [Puzzle Wallet](https://github.com/0xIchigo/Ethernaut/blob/master/PuzzleWallet/Solution.md)
+25. [Motorbike](https://github.com/0xIchigo/Ethernaut/blob/master/Motorbike/Solution.md)

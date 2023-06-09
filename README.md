@@ -34,3 +34,4 @@ The goal of this repository is to provide clear, easy to follow solutions to eac
 25. [Motorbike](https://github.com/0xIchigo/Ethernaut/blob/master/Motorbike/Solution.md)
 26. [DoubleEntryPoint](https://github.com/0xIchigo/Ethernaut/blob/master/DoubleEntryPoint/Solution.md)
 27. [Good Samaritan](https://github.com/0xIchigo/Ethernaut/blob/master/GoodSamaritan/Solution.md)
+28. [Gatekeeper Three](https://github.com/0xIchigo/Ethernaut/blob/master/GatekeeperThree/Solution.md)
